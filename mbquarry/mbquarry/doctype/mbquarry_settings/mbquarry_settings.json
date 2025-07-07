@@ -1,0 +1,266 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-26 18:25:20.652484",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "print_format_settings_section",
+  "cashier_printer",
+  "column_break_kkaj",
+  "gate_pass_printer",
+  "column_break_seoq",
+  "quotation_printer",
+  "column_break_kxtf",
+  "sticker_printer",
+  "withdraw_agent_printer",
+  "cashier_print_formats_section",
+  "part_collection_print_format",
+  "column_break_iytj",
+  "receipt_print_format",
+  "column_break_uoul",
+  "invoice_print_format",
+  "credit_sales_print_format_section",
+  "part_collection_note_credit_sale",
+  "column_break_cfis",
+  "gate_pass_credit_sales",
+  "column_break_fvjd",
+  "customer_credit_payment",
+  "section_break_crio",
+  "requisition_print_format",
+  "return_requisition_print_format",
+  "column_break_mnnu",
+  "gate_pass_print_format",
+  "sticker_print_format",
+  "column_break_layh",
+  "credit_note_print_format",
+  "quotation_print_format",
+  "withdrawal_agent_print_format",
+  "commission_tab",
+  "kimzone_commission_section",
+  "commission_account",
+  "territory_tab",
+  "exempted_territory_users"
+ ],
+ "fields": [
+  {
+   "fieldname": "requisition_print_format",
+   "fieldtype": "Link",
+   "label": "Customer Requisition Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "column_break_kkaj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "print_format_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Print Format Settings"
+  },
+  {
+   "fieldname": "cashier_printer",
+   "fieldtype": "Link",
+   "label": "Cashier Printer",
+   "options": "Network Printer Settings"
+  },
+  {
+   "fieldname": "cashier_print_formats_section",
+   "fieldtype": "Section Break",
+   "label": "Cashier Print Formats"
+  },
+  {
+   "fieldname": "column_break_iytj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "With Customer Pin Only",
+   "fieldname": "receipt_print_format",
+   "fieldtype": "Link",
+   "label": "Receipt Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "column_break_uoul",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "With Customer Pin & QR Code",
+   "fieldname": "invoice_print_format",
+   "fieldtype": "Link",
+   "label": "Invoice Print Format",
+   "options": "Print Format"
+  },
+  {
+   "description": "Without Customer Pin",
+   "fieldname": "part_collection_print_format",
+   "fieldtype": "Link",
+   "label": "Part Collection Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "gate_pass_printer",
+   "fieldtype": "Link",
+   "label": "Gate Pass Printer",
+   "options": "Network Printer Settings"
+  },
+  {
+   "fieldname": "quotation_printer",
+   "fieldtype": "Link",
+   "label": "Quotation Printer",
+   "options": "Network Printer Settings"
+  },
+  {
+   "fieldname": "column_break_seoq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_crio",
+   "fieldtype": "Section Break",
+   "label": "Other Print Formats"
+  },
+  {
+   "fieldname": "column_break_mnnu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gate_pass_print_format",
+   "fieldtype": "Link",
+   "label": "Gate Pass Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "column_break_layh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quotation_print_format",
+   "fieldtype": "Link",
+   "label": "Quotation Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "credit_note_print_format",
+   "fieldtype": "Link",
+   "label": "Credit Note Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "column_break_kxtf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sticker_printer",
+   "fieldtype": "Link",
+   "label": "Sticker Printer",
+   "options": "Network Printer Settings"
+  },
+  {
+   "fieldname": "credit_sales_print_format_section",
+   "fieldtype": "Section Break",
+   "label": "Credit Sales Print Formats"
+  },
+  {
+   "fieldname": "part_collection_note_credit_sale",
+   "fieldtype": "Link",
+   "label": "Part Collection Note Credit Sale",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "column_break_cfis",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gate_pass_credit_sales",
+   "fieldtype": "Link",
+   "label": "Gate Pass Credit Sales",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "column_break_fvjd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_credit_payment",
+   "fieldtype": "Link",
+   "label": "Customer Credit Payment",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "sticker_print_format",
+   "fieldtype": "Link",
+   "label": "Sticker Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "return_requisition_print_format",
+   "fieldtype": "Link",
+   "label": "Return Requisition Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "commission_account",
+   "fieldtype": "Link",
+   "label": "Commission Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "kimzone_commission_section",
+   "fieldtype": "Section Break",
+   "label": "Kimzone Commission"
+  },
+  {
+   "fieldname": "withdraw_agent_printer",
+   "fieldtype": "Link",
+   "label": "Withdraw Agent Printer",
+   "options": "Network Printer Settings"
+  },
+  {
+   "fieldname": "withdrawal_agent_print_format",
+   "fieldtype": "Link",
+   "label": "Withdrawal Agent Print Format",
+   "options": "Print Format"
+  },
+  {
+   "fieldname": "commission_tab",
+   "fieldtype": "Tab Break",
+   "label": "Commission"
+  },
+  {
+   "fieldname": "territory_tab",
+   "fieldtype": "Tab Break",
+   "label": "Territory"
+  },
+  {
+   "fieldname": "exempted_territory_users",
+   "fieldtype": "Table",
+   "label": "Exempted Territory Users",
+   "options": "Territory Users"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-07-05 15:15:03.129767",
+ "modified_by": "Administrator",
+ "module": "Mbquarry",
+ "name": "MbQuarry Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
