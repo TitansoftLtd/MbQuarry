@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-07 13:44:38.444600",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "entry_image",
+  "camera_id",
+  "column_break_lupv",
+  "exit_image",
+  "license_plate_snapshot",
+  "ocr_plate_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "entry_image",
+   "fieldtype": "Attach Image",
+   "label": "Entry Image"
+  },
+  {
+   "fieldname": "camera_id",
+   "fieldtype": "Data",
+   "label": "Camera ID"
+  },
+  {
+   "fieldname": "column_break_lupv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exit_image",
+   "fieldtype": "Attach Image",
+   "label": "Exit Image"
+  },
+  {
+   "fieldname": "license_plate_snapshot",
+   "fieldtype": "Attach Image",
+   "label": "License Plate Snapshot"
+  },
+  {
+   "fieldname": "ocr_plate_number",
+   "fieldtype": "Data",
+   "label": "OCR Plate Number"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-07 13:44:38.444600",
+ "modified_by": "Administrator",
+ "module": "Mbquarry",
+ "name": "Camera Integration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
