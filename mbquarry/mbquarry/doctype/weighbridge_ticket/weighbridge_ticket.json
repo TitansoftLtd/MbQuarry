@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-07 13:45:08.711311",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "gross_weight",
+  "net_weight",
+  "auto_fetch",
+  "column_break_xsma",
+  "tare_weight",
+  "weighbridge_id",
+  "weighbridge_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "gross_weight",
+   "fieldtype": "Float",
+   "label": "Gross Weight "
+  },
+  {
+   "fieldname": "net_weight",
+   "fieldtype": "Float",
+   "label": "Net Weight",
+   "options": "gross_weight - tare_weight"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_fetch",
+   "fieldtype": "Check",
+   "label": "Auto Fetch Weight"
+  },
+  {
+   "fieldname": "column_break_xsma",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tare_weight",
+   "fieldtype": "Float",
+   "label": "Tare Weight"
+  },
+  {
+   "fieldname": "weighbridge_id",
+   "fieldtype": "Data",
+   "label": "Weighbridge ID"
+  },
+  {
+   "fieldname": "weighbridge_status",
+   "fieldtype": "Select",
+   "label": "Weighbridge Status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-07 13:45:08.711311",
+ "modified_by": "Administrator",
+ "module": "Mbquarry",
+ "name": "Weighbridge Ticket",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
