@@ -43,7 +43,9 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+    "Sales Invoice" : "public/js/sales_invoice.js",
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -132,6 +134,9 @@ app_license = "mit"
 # override_doctype_class = {
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
+override_doctype_class = {
+	"Network Printer Settings": "mbquarry.mbquarry.customizations.print_format.NetworkPrinterSettings"
+}
 
 # Document Events
 # ---------------
@@ -177,6 +182,9 @@ app_license = "mit"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "mbquarry.event.get_events"
 # }
+override_whitelisted_methods = {
+	"frappe.utils.print_format.print_by_server": "mbquarry.mbquarry.customizations.print_format.print_by_server",
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
